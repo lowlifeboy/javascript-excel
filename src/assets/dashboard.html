@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Pure JavaScript Excel</title>
+</head>
+<body>
+    <div id="app">
+        <div class="db">
+            <div class="db__header">Excel Dashboard</div>
+            <div class="db__new">
+                <div class="container">
+                    <div class="title">Создание</div>
+                    <div class="db__sheets">
+                        <a href="#" class="db__create">
+                            <div class="button">
+                                <i class="material-icons icon">add</i>
+                            </div>
+                            Новая пустая таблица
+                        </a>
+                        <a href="#" class="db__sheet">
+                            <div class="button">
+                                <img src="https://omextemplates.content.office.net/support/templates/ru-ru/mw00000045.png" alt="">
+                            </div>
+                            Тестовая таблица
+                        </a>
+                        <a href="#" class="db__sheet">
+                            <div class="button">
+                                <img src="https://omextemplates.content.office.net/support/templates/ru-ru/mw00000050.png" alt="">
+                            </div>
+                            Тестовая таблица
+                        </a>
+                        <a href="#" class="db__sheet">
+                            <div class="button">
+                                <img src="https://omextemplates.content.office.net/support/templates/ru-ru/mw00000045.png" alt="">
+                            </div>
+                            Тестовая таблица
+                        </a>
+                        <a href="#" class="db__sheet">
+                            <div class="button">
+                                <img src="https://omextemplates.content.office.net/support/templates/ru-ru/mw00000050.png" alt="">
+                            </div>
+                            Тестовая таблица
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="db__sheetsList">
+                <div class="container">
+                    <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                    <label for="tab-btn-1">Последние</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                    <label for="tab-btn-2">Закреплённые</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                    <label for="tab-btn-3">Общие</label>
+
+                    <div id="last">
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star_border</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star_border</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star_border</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star_border</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star_border</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pinned">
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                        <div class="sheet">
+                            <div class="sheet__mainInfo">
+                                <div>
+                                    <img src="https://img.icons8.com/color/36/000000/microsoft-excel-2019--v1.png" alt="Excel file"/>
+                                </div>
+                                <div>
+                                    <p>Книга</p>
+                                    <p>One Drive (личный) пользователя Konstantin Savchenko</p>
+                                </div>
+                            </div>
+                            <div class="sheet__edit">
+                                <span class="material-icons">star</span>
+                                <span class="material-icons">delete</span>
+                            </div>
+                            <div class="sheet__extraInfo">
+                                <p>10 ч назад</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="common">
+                        Содержимое 3...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
